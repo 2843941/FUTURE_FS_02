@@ -55,4 +55,3 @@ A complete CRM system for managing client leads built with **React** and **Fireb
 
 
 
-## Project Structure
