@@ -1,70 +1,58 @@
-# Getting Started with Create React App
+# Client Lead Management System (Mini CRM)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A complete CRM system for managing client leads built with **React** and **Firebase**.
 
-## Available Scripts
+## Live Demo
 
-In the project directory, you can run:
+🔗 **https://crm-lead-system-94fc0.web.app**
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+| Feature | Description |
+|---------|-------------|
+|  Public Contact Form | Anyone can submit name, email, and message |
+|  Secure Admin Login | Only authenticated admins can access the dashboard |
+|  Lead Dashboard | View all leads in a clean table |
+|  Status Updates | Change status: NEW → CONTACTED → CONVERTED |
+|  Follow-up Notes | Add and view notes for each lead |
+|  Delete Leads | Remove leads when no longer needed |
+|  Statistics | Real-time counts of New/Contacted/Converted leads |
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Tech Stack
 
-### `npm run build`
+| Layer | Technology |
+|-------|------------|
+| Frontend | React.js |
+| Backend & Database | Firebase Firestore |
+| Authentication | Firebase Auth |
+| Routing | React Router DOM |
+| Hosting | Firebase Hosting |
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## How It Works
 
-### `npm run eject`
+### For Clients (Public)
+1. Client visits the website
+2. Fills out the contact form (Name, Email, Message)
+3. Clicks "Send Message"
+4. Data is saved to Firebase automatically
+5. Client sees "Thank You" confirmation
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### For Admins (Private)
+1. Admin clicks "Admin Login" in navigation
+2. Enters email and password
+3. Views all leads in the dashboard
+4. Can change lead status (NEW → CONTACTED → CONVERTED)
+5. Can add follow-up notes to each lead
+6. Can delete leads if needed
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Project Structure
